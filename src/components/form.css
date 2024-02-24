@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f6f6f6;
+}
+.container .form {
+  width: 450px;
+  height: 500px;
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 18px;
+  box-shadow: 0px 0px 100px #888888;
+}
+.container .form .inp {
+  height: 43px;
+  border-radius: 12px;
+  border: 1px solid #dddddd;
+  width: 85%;
+  padding: 0px 14px;
+  outline: none;
+}
+.container .form .btn {
+  height: 50px;
+  color: #fff;
+  background-color: #484848;
+  border: none;
+  border-radius: 16px;
+  width: 100%;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+}/*# sourceMappingURL=form.css.map */
